@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      object-fit: cover;
+    }
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 1.5rem;
+      font-family: Arial, sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      text-align: center;
+    }
+    .text_head{
+        position: absolute;
+        bottom: 85%;
+        right: 80%;
+        transform: translate(-50%, -50%);
+        color:red;
+        font-family: Arial, sans-serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+
+
+    }
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5); 
+        padding: 10px 0;
+        }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin: 0 20px; 
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background 0.3s;
+        }
+
+
+    .navbar a:hover {
+        background: rgba(255, 255, 255, 0.6);
+        color: black;
+        }
+        button{
+           position: absolute;
+            background-color: red;
+            text-decoration-color: white;
+            font-size: large;
+            padding: 10px 20px;
+            border-radius: 200px;
+            margin-right: 0px;
+            margin-left: 1200px;
+        }
+    
+</style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="https://media.istockphoto.com/id/180617222/video/adding-a-sprinkle-of-cheese-on-pizza.mp4?s=mp4-640x640-is&k=20&c=S7sp2zrwfn8pi4yjFy74CAQI9Z12pkL7arVqw9RzgWg=" type="video/mp4">
+    </video>
+      <div class="text-overlay">
+        <h4>Welcome to Rich Cuisine</h4>
+        <h1>Rich Healthyand Natural Food</h1>
+        <p>Rich Cuisine is a resturent located in india we have some amazing recipes and the most talented chefs on the country </p>
+      </div>
+     
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#about">Menu</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="text_head">
+        <h1>Rich Cuisine</h1>
+      </div>
+      <button>BOOK A TABLE</button>
+
+
+
+      
+
+    
+</body>
+</html>
